@@ -1,14 +1,8 @@
-Project: naive-ticket-machine
-Authors: David Barnes and Michael Kölling
-
-This project is part of the material for the book
-
-   Objects First with Java - A Practical Introduction using BlueJ
-   Seventh edition
-   David J. Barnes and Michael Kölling
-   Pearson Education
-
-It is discussed in chapter 2.
-
-Purpose of project: To illustrate the basics of fields, constructors, and methods.
-How to start this project: Create one or more TicketMachine objects.
+2. When printed, the value is equal to 0
+3. Puting extra money doesnt give you money back. it leaves it at 0.
+6. it should be "public class labClass" for labclass
+7. yes
+8. Yes its possible.
+9. You can't delete the word "class" because it removes the class. It will give you an error.
+10. 
+27. The arrow message is not a statement
