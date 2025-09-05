@@ -20,23 +20,34 @@ public class TicketMachine
     private int total;
     
     private int status;
-
+    
 
     /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMachine(int price)
+    public TicketMachine(int cost)
     {
-        price = price;
+        price = 1000;
+        price = cost;
         balance = 0;
+        total = 0;
+    }
+    
+    public void empty()
+    {
         total = 0;
     }
     
     public int getTotal()
     {
         return total;
+    }
+    
+    public void prompt()
+    {
+        System.out.println("Please insert the correct amount of money.");
     }
     
     /**
@@ -75,7 +86,7 @@ public class TicketMachine
         System.out.println("##################");
         System.out.println("# The BlueJ Line");
         System.out.println("# Ticket");
-        System.out.println("# " + price + " cents.");
+        System.out.printf("# %d cents.%n", price);
         System.out.println("##################");
         System.out.println();
 
